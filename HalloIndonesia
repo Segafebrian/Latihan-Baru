@@ -1,0 +1,14 @@
+paket halloindonesia;
+
+/ **
+ *
+ * @ penulis Sega Febrianargo Sejati
+ * /
+public class halLoIndonesia {
+    public static void main (String [] args) {
+    
+        System.out.println ("Hallo Indonesia");
+        System.out.print ("Selamat pagi Indonesia \ n");
+        System.out.println ("Jaya Indonesia");
+    }
+}
