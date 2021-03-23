@@ -1,0 +1,34 @@
+pacpackage Mahasiswa;
+
+/ **
+ *
+ * @ penulis Sega Febrianargo Sejati
+ * /
+kelas umum mahasiswa {
+    Membaca string;
+    int nyontek;
+    String modifikasi;
+    
+    public void Mahasiswa () {
+        System.out.println ("cara membaca" + membaca + "dengan tajwid");
+        System.out.println ("sekitar" + nyontek + "cara mencontek yang benar");
+        System.out.println ("cara modifikasi contekan" + modifikasi);
+    }
+} ================================================= ========================================
+
+paket mahasiswa;
+
+/ **
+ *
+ * @ penulis Sega Febrianargo Sejati
+ * /
+kelas publik Mahasiswaberaksi {
+    public static void main (String [] args) {
+        Mahasiswa mahasiswa = mahasiswa baru ();
+                  mahasiswauph.membaca = "Al-Quran";
+                  mahasiswauph.nyontek = 65;
+                  mahasiswauph.modifikasi = "ada beberapa cara semisal mengacak kata";
+                  mahasiswauph.Mahasiswa ();
+                  
+        }
+    }
