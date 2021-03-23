@@ -20,7 +20,7 @@ paket SepedaMu;
 
 / **
  *
- * @ penulis Sega FEbrianargo Sejati
+ * @ penulis Sega Febrianargo Sejati
  * /
 kelas umum SepedaKrut {
     public static void main (String [] args) {
