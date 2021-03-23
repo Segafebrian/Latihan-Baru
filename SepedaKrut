@@ -1,0 +1,41 @@
+paket Sepedamu;
+
+/ **
+ *
+ * @ penulis Sega Febrianargo Sejati
+ * /
+kelas umum Sepeda {
+    int gir;
+    
+    void setGir (intesGir) {
+        gir = gir- hariGir;
+    }
+    
+    int getGir () {
+        kembali gir;
+    }
+} ================================================= ==================
+
+paket SepedaMu;
+
+/ **
+ *
+ * @ penulis Sega FEbrianargo Sejati
+ * /
+kelas umum SepedaKrut {
+    public static void main (String [] args) {
+        Sepeda sepedamu = new Sepeda ()
+            
+            
+            sepedamu.setGir (1);
+            
+             / * Variabel bisa diubah atau tidak diubah.
+              Hal ini berbahaya dan sering menimbulkan bug.
+              Berikan acces modifier private pada variabel instance
+          * /
+          
+            sepedaamu.gir = 5-2;
+            System.out.println ("Gir saat ini:" + sepedamu.getGir ());
+            
+        }
+    }
