@@ -1,0 +1,29 @@
+paket mobil;
+
+/ **
+ *
+ * @ penulis Sega Febrianargo Sejati
+ * /
+public class mobil1 {
+    String warna;
+    int tahunproduksi;
+}
+================================================== ==================================
+
+paket mobil;
+
+/ **
+ *
+ * @ penulis Sega Febrianargo Sejati
+ * /
+mobilKrut kelas publik {
+    public static void main (String [] args) {
+        mobil1 mobilAnwar = mobil1 baru ();
+        
+        mobilFebrian.warna = "hitam";
+        mobilFebrian.tahunproduksi = 2010;
+        
+        System.out.println ("warna:" + mobilFebrian.warna);
+        System.out.println ("tahun produksi:" + mobilFebrian.tahunproduksi);
+    }
+}
